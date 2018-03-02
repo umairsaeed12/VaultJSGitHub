@@ -1,0 +1,74 @@
+body {
+  background-image: url(../Images/blue.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#main-container {
+  border-radius: 25px;
+  border: 2px solid #73AD21 auto;
+  height: 300px;
+  width: 250px;
+  margin: 0 auto;
+  margin-top: 200px;
+  background-color: #30fff8;
+}
+
+button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #0c5ad6;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 9px #999;
+  float: left;
+  margin-left: 15px;
+  margin-top: 85px;
+}
+
+button:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: blue;
+}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#number-container {
+  color: blue;
+  font-size: 50px;
+  margin-left: 90px;
+  font-family: fantasy;
+}
+
+#message {
+  color: #0c5ad6;
+  margin-left: 45px;
+  margin-top: 15px;
+  font-variant: small-caps;
+}
+
+#GreenBlock {
+  border-radius: 23px;
+  background-color: #30ff33;
+  width: 125px;
+  height: 50px;
+  float: left
+}
+
+#RedBlock {
+  border-radius: 23px;
+  background-color: red;
+  width: 125px;
+  height: 50px;
+  float: right
+}
